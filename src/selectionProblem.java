@@ -1,3 +1,10 @@
+/*
+ * Rodger Byrd
+ * 11/8/17
+ * Homework 3 part 1
+ * CS5720
+ */
+
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -10,11 +17,12 @@ import java.util.Random;
 public class selectionProblem {
 	
 	
-	public static void main(String[] args) throws UnsupportedEncodingException, FileNotFoundException, IOException {
+	public static void main(String[] args) 
+			throws UnsupportedEncodingException, FileNotFoundException, IOException {
 	
 
 		
-		int n = 100000;
+		int n = 1000000;
 		int k = 10;
 		
 		//create array of random  numbers 
@@ -37,24 +45,25 @@ public class selectionProblem {
 			k = rand.nextInt(n);
 			sortedArray = sort(inputArray);
 			
+			//for (int j = 0; j < n; j++)
+				//System.out.print(sortedArray[j]+ " ");
+			//System.out.print("\n");
 			long endTime   = System.currentTimeMillis();
 			long totalTime = endTime - startTime;
 			
-			String analysis = "Input size: " + n +
-					"\nk: " + k + 
-					"\nkth value: " + sortedArray[k] + 
-					"\nTotal Runtime: " + totalTime + "\n";
+			//text based for reading
+			//String analysis = "Input size: " + n +
+			//		"\nk: " + k + 
+			//		"\nkth value: " + sortedArray[k] + 
+			//		"\nTotal Runtime: " + totalTime + "\n";
 			
+			//print chart data onlyu to file
+			String analysis = n + "\t" + totalTime + "\n";
 			printAnalysisToFile("output.txt",analysis);
 			
 			//System.out.println("Total runtime = " + totalTime +"ms");
 			
 		}
-		
-		
-
-
-		
 	}
 	public static void printAnalysisToFile(String filename, String text) throws UnsupportedEncodingException, FileNotFoundException, IOException{
 		
@@ -70,6 +79,7 @@ public class selectionProblem {
 			} 
 
 	}
+	//selection sort
 	public static int[] sort(int a[]){
 		//sort array using selection sort
 		int min = 0;
