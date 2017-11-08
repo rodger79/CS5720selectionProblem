@@ -1,0 +1,64 @@
+Input size: 1000
+k: 118
+kth value: 127
+Total Runtime: 17
+Input size: 1000
+k: 150
+kth value: 162
+Total Runtime: 15
+Input size: 1000
+k: 119
+kth value: 129
+Total Runtime: 1
+Input size: 1000
+k: 816
+kth value: 799
+Total Runtime: 0
+Input size: 10000
+k: 9971
+kth value: 997
+Total Runtime: 130
+Input size: 10000
+k: 3058
+kth value: 303
+Total Runtime: 57
+Input size: 10000
+k: 9129
+kth value: 919
+Total Runtime: 55
+Input size: 10000
+k: 3551
+kth value: 357
+Total Runtime: 57
+Input size: 100000
+k: 68573
+kth value: 687
+Total Runtime: 6584
+Input size: 100000
+k: 79885
+kth value: 800
+Total Runtime: 5564
+Input size: 100000
+k: 40912
+kth value: 410
+Total Runtime: 5514
+Input size: 100000
+k: 64653
+kth value: 648
+Total Runtime: 5596
+Input size: 1000000
+k: 253121
+kth value: 254
+Total Runtime: 678153
+Input size: 1000000
+k: 818877
+kth value: 819
+Total Runtime: 671975
+Input size: 1000000
+k: 528160
+kth value: 529
+Total Runtime: 70509519
+Input size: 1000000
+k: 144844
+kth value: 146
+Total Runtime: 657387

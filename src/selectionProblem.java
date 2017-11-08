@@ -14,7 +14,7 @@ public class selectionProblem {
 	
 
 		
-		int n = 10000;
+		int n = 100000;
 		int k = 10;
 		
 		//create array of random  numbers 
